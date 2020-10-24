@@ -1,0 +1,4 @@
+*
+!plugins/pixiv/pixiv.py
+!plugins/twitter/twitter.py
+!.gitignore
