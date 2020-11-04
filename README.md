@@ -3,6 +3,7 @@ This project aims to help you download your favorite/likes images from Twitter a
 features
 * easily save your likes with highest quality without repetition and review them anytime you want.
 * Put all relating information, author, title, tag, links, create date into image metadata. Never Lose It.
+* Automatically generate image excerpt as `digest.png`.
 
 # How to use it
 1. If you want to download likes from twitter, you need to apply twitter api keys.
