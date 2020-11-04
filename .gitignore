@@ -140,7 +140,6 @@ cython_debug/
 assets/
 caches/
 notes.py
-config.json
 .vscode/
 likes.json
 exiv.py
