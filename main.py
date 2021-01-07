@@ -34,8 +34,7 @@ if __name__ == "__main__":
         twitter()
 
     # Delete empty folders
-    if len(os.listdir(f'assets/{current_date}'))==0:
+    if len(os.listdir(f'assets/{current_date}')) == 0:
         os.rmdir(f'assets/{current_date}')
     else:
         digest(f'assets/{current_date}')
-

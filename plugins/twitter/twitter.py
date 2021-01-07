@@ -58,8 +58,7 @@ def twitter():
     print('Checking twitter new likes....')
 
     likes = []
-    for status in tweepy.Cursor(api.favorites, creds["username"],
-                                count=200, include_entities=True, tweet_mode='extended').items():
+    for status in tweepy.Cursor(api.favorites,include_entities=True, tweet_mode='extended').items(200):
         count = count + 1
         status_id = str(status.id)
         if status_id in old_ids:
